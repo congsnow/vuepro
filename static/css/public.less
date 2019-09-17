@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: .388889rem;
+  color:#666;
+}
+.mint-search{
+  height: auto;
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  z-index: 1;
+}
+.mint-search,.mint-searchbar{
+  background-color: transparent;
+}
+.mint-searchbar{
+  height: 1.222222rem;
+  padding: .222222rem .277778rem;
+  *{
+    font-size: .388889rem!important;
+  }
+  .mint-searchbar-inner{
+    height: .777778rem;
+    padding: .111111rem .166667rem;
+    background-color: rgba(255,255,255,0.8)!important;
+  }
+  .mint-searchbar-inner{
+    border-radius: .388889rem;
+  }
+  .mint-searchbar-cancel{
+    margin-left: .277778rem;
+  }
+  input{
+    padding-left: .277778rem;
+    color:#666;
+    background: transparent;
+  }
+  .mintui-search{
+    color:#666;
+    top:.055556rem;
+    left:.055556rem;
+    position: relative;
+  }
+  .mint-searchbar-cancel{
+    color:rgba(255,255,255,0.8);
+  }
+}
+.mint-search-list{
+  display: none;
+}
+.mint-swipe{
+  height: 7.722222rem;
+  background-color: #BDC2C9;
+  .mint-swipe-indicator{
+    background: #fff;
+    opacity: 0.5;
+    &.is-active{
+      opacity: 1;
+    }
+  }
+}
+.bar{
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.277778rem;
+  display: flex;
+  justify-content:center;
+  border-top: 1px solid #f4f4f4;
+  background-color: #fff;
+  box-shadow: 0 0 .277778rem rgba(0, 0, 0, 0.1);
+  a{
+    flex: 1;
+    display: block;
+    text-align: center;
+    font-size: .333333rem;
+  }
+}
+.mint-swipe{
+  img{
+     width: 100%;
+  }
+}
