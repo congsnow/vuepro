@@ -1,6 +1,6 @@
 # vuecode
 
-> A Vue.js project 哈哈哈
+> A Vue.js project hahaha
 
 ## Build Setup
 
